@@ -360,3 +360,12 @@ p[class='text-picture'] {
   padding-left: 50px;
   padding-right: 41px;
 }
+
+.icon-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-header-spacing {
+  margin-right: 10px;
+}

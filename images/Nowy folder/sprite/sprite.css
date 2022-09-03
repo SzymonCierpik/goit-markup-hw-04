@@ -1,0 +1,86 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-vector {
+  width: 20px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-envelope {
+  width: 43px;
+  height: 32px;
+  background-position: 0 -32px;
+}
+.icon-figma {
+  width: 59px;
+  height: 32px;
+  background-position: 0 -64px;
+}
+.icon-client2 {
+  width: 59px;
+  height: 32px;
+  background-position: 0 -96px;
+}
+.icon-client3 {
+  width: 59px;
+  height: 32px;
+  background-position: 0 -128px;
+}
+.icon-client4 {
+  width: 59px;
+  height: 32px;
+  background-position: 0 -160px;
+}
+.icon-client5 {
+  width: 59px;
+  height: 32px;
+  background-position: 0 -192px;
+}
+.icon-client6 {
+  width: 59px;
+  height: 32px;
+  background-position: 0 -224px;
+}
+.icon-group1 {
+  width: 72px;
+  height: 32px;
+  background-position: 0 -256px;
+}
+.icon-group2 {
+  width: 72px;
+  height: 32px;
+  background-position: 0 -288px;
+}
+.icon-group3 {
+  width: 72px;
+  height: 32px;
+  background-position: 0 -320px;
+}
+.icon-group4 {
+  width: 72px;
+  height: 32px;
+  background-position: 0 -352px;
+}
+.icon-instagram {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -384px;
+}
+.icon-twitter {
+  width: 32px;
+  height: 32px;
+  background-position: -32px -384px;
+}
+.icon-facebook {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -416px;
+}
+.icon-linkedin {
+  width: 32px;
+  height: 32px;
+  background-position: -32px -416px;
+}
+
