@@ -365,7 +365,13 @@ p[class='text-picture'] {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #2196f3;
 }
+
 .icon-header-spacing {
   margin-right: 10px;
+}
+
+.fill {
+  fill: #2196f3;
 }
