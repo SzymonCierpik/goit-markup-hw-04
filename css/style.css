@@ -159,6 +159,7 @@ a {
 .section-footer {
   background-color: var(--shark);
   color: var(--whitehihi);
+  height: 252px;
 }
 
 .position-li {
@@ -395,4 +396,16 @@ p[class='text-picture'] {
 
 .foto-graybox {
   background-image: url(/images/Img.svg);
+}
+
+.border-box {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.border-box:hover {
+  border-color: var(--kamikaze);
 }
