@@ -123,7 +123,8 @@ li {
 .link-2:hover,
 .link-2:focus,
 .link:focus,
-.link:hover {
+.link:hover,
+.fill:hover {
   color: var(--kamikaze);
 }
 
@@ -251,7 +252,6 @@ p[class='text-picture'] {
 .location-lorem-ipsum {
   display: flex;
   list-style: none;
-  padding-right: 200px;
 }
 
 .location-what-we-do {
@@ -353,19 +353,17 @@ p[class='text-picture'] {
 }
 
 .email {
-  padding-left: 371px;
+  padding-left: 345px;
 }
 
 .tel {
   padding-left: 50px;
-  padding-right: 41px;
 }
 
 .icon-header {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #2196f3;
 }
 
 .icon-header-spacing {
@@ -373,5 +371,25 @@ p[class='text-picture'] {
 }
 
 .fill {
-  fill: #2196f3;
+  fill: #757575;
+}
+
+.fill-social {
+  fill:var(--whitehihi);
+
+}
+
+.fill:hover,
+.fill-social:hover {
+  fill: var(--kamikaze);
+}
+
+.four-boxes-lorem-ipsum {
+  padding-top: 30px;
+}
+
+.social {
+  margin-top: 16px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
