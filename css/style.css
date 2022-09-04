@@ -375,8 +375,7 @@ p[class='text-picture'] {
 }
 
 .fill-social {
-  fill:var(--whitehihi);
-
+  fill: var(--whitehihi);
 }
 
 .fill:hover,
@@ -392,4 +391,8 @@ p[class='text-picture'] {
   margin-top: 16px;
   margin-right: 5px;
   margin-left: 5px;
+}
+
+.foto-graybox {
+  background-image: url(/images/Img.svg);
 }
