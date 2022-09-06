@@ -10,6 +10,7 @@
   --whatitis: #f5f4fa;
   --border: #eeeeee;
   --border-header: #ececec;
+  --social: #afb1b8;
 }
 
 body {
@@ -408,4 +409,20 @@ p[class='text-picture'] {
 }
 .border-box:hover {
   border-color: var(--kamikaze);
+}
+
+.box-social {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--social);
+  }
+
+.box-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  backgroud-color:var(--grayhey)
 }
