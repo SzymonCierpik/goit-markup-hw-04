@@ -396,7 +396,7 @@ p[class='text-picture'] {
 }
 
 .foto-graybox {
-  background-image: url(../images/Img.svg);
+  background-image: url(/images/img.svg);
 }
 
 .border-box {
@@ -416,7 +416,7 @@ p[class='text-picture'] {
   height: 44px;
   border-radius: 50%;
   fill: var(--social);
-  }
+}
 
 .box-socials {
   display: flex;
@@ -428,5 +428,5 @@ p[class='text-picture'] {
 
 .box-social:hover {
   background-color: #2196f3;
-  fill:var(--whitehihi)
+  fill: var(--whitehihi);
 }
