@@ -424,5 +424,9 @@ p[class='text-picture'] {
   align-items: center;
   gap: 10px;
   margin-bottom: 30px;
-  backgroud-color:var(--grayhey)
+}
+
+.box-social:hover {
+  background-color: #2196f3;
+  fill:var(--whitehihi)
 }
