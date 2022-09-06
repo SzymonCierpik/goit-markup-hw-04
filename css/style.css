@@ -429,4 +429,43 @@ p[class='text-picture'] {
 .box-social:hover {
   background-color: #2196f3;
   fill: var(--whitehihi);
+  cursor: pointer;
+}
+
+.location-social-footer {
+  display: flex;
+  list-style: none;
+}
+
+.location-join-us {
+  margin-top: 75px;
+  margin-left: 70px;
+}
+
+.join-us {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.background-social-icon {
+  background: rgba(255, 255, 255, 0.1);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.background-social-none-left {
+  background: rgba(255, 255, 255, 0.1);
+  margin-right: 5px;
+}
+
+.italics {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
