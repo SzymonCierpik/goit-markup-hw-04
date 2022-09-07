@@ -119,6 +119,7 @@ li {
 
 .link-2:hover {
   color: var(--kamikaze);
+  transition: 0.5s;
 }
 
 .link-2:hover,
@@ -127,6 +128,7 @@ li {
 .link:hover,
 .fill:hover {
   color: var(--kamikaze);
+  transition: 0.5s;
 }
 
 a {
@@ -211,6 +213,7 @@ a {
 .buttonportfolio:hover {
   background-color: var(--kamikaze);
   color: var(--buttonwhite);
+  transition: 0.5s;
 }
 
 .text-picture {
@@ -247,7 +250,7 @@ p[class='text-picture'] {
 }
 
 .four-boxes {
-  background-color: #ffffff;
+  background-color: var(--whitehihi);
   padding-top: 80px;
 }
 
@@ -278,7 +281,7 @@ p[class='text-picture'] {
 
 .photo-box {
   margin: 15px;
-  background: #ffffff;
+  background: var(--whitehihi);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -373,7 +376,7 @@ p[class='text-picture'] {
 }
 
 .fill {
-  fill: #757575;
+  fill: var(--grayhey);
 }
 
 .fill-social {
@@ -383,6 +386,7 @@ p[class='text-picture'] {
 .fill:hover,
 .fill-social:hover {
   fill: var(--kamikaze);
+  transition: 0.5s;
 }
 
 .four-boxes-lorem-ipsum {
@@ -402,13 +406,14 @@ p[class='text-picture'] {
 .border-box {
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--social);
   border-radius: 4px;
   margin-left: 15px;
   margin-right: 15px;
 }
 .border-box:hover {
   border-color: var(--kamikaze);
+  transition: 0.5s;
 }
 
 .box-social {
@@ -427,9 +432,10 @@ p[class='text-picture'] {
 }
 
 .box-social:hover {
-  background-color: #2196f3;
+  background-color: var(--kamikaze);
   fill: var(--whitehihi);
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .location-social-footer {
