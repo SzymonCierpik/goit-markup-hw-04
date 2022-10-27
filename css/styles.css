@@ -41,7 +41,6 @@ ul {
 }
 
 .svg {
-  display: flex;
   width: 16px;
   height: 12px;
   margin-right: 10px;
@@ -49,7 +48,6 @@ ul {
 }
 
 .svg2 {
-  display: flex;
   width: 10px;
   height: 16px;
   margin-right: 10px;
@@ -58,8 +56,8 @@ ul {
 }
 
 .menu--color:hover {
-  fill: #2196f3;
-  color: #2196f3;
+  fill:var(--blue);
+  color:var(--blue);
 }
 
 .flex {
