@@ -25,10 +25,6 @@ h3 {
   margin-bottom: 10px;
 }
 
-.fill {
-  fill:red;
-}
-
 figure {
   margin-block-start: 0;
   margin-block-end: 0;
@@ -42,6 +38,28 @@ ul {
   margin-inline-start: 0;
   margin-inline-end: 0;
   padding-inline-start: 0;
+}
+
+.svg {
+  display: flex;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--gray);
+}
+
+.svg2 {
+  display: flex;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  margin-left: 30px;
+  fill: var(--gray);
+}
+
+.menu--color:hover {
+  fill: #2196f3;
+  color: #2196f3;
 }
 
 .flex {
@@ -135,7 +153,7 @@ body {
   color: var(--gray);
 }
 
-.menu__contact--padding-tel {
+.menu__contact--padding-te {
   margin-left: 50px;
 }
 
@@ -147,7 +165,10 @@ body {
 }
 
 .wallpaper {
-  background-color: var(--gray-second);
+  background: rgba(47, 48, 58, 0.4);
+  background-image: url('../images/img.png');
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   display: flex;
   height: 600px;
