@@ -51,7 +51,6 @@ ul {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  margin-left: 30px;
   fill: var(--gray);
 }
 
@@ -129,6 +128,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.menu--gap {
+  gap: 16px;
+}
+
 .right {
   display: flex;
   justify-content: flex-end;
@@ -149,6 +152,8 @@ body {
   text-decoration: none;
   list-style: none;
   color: var(--gray);
+  display: flex;
+  align-items: center;
 }
 
 .menu__contact--padding-te {
