@@ -55,7 +55,7 @@ ul {
   fill: var(--gray);
 }
 
-.menu--color:hover {
+.menu--color:hover svg {
   fill: var(--blue);
   color: var(--blue);
 }
@@ -208,6 +208,11 @@ body {
 .article--flex {
   display: flex;
   gap: 30px;
+}
+
+.size-group {
+  width: 270px;
+  height: 120px;
 }
 .article__heading {
   font-size: 14px;
