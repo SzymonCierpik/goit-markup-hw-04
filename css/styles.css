@@ -169,10 +169,13 @@ body {
 
 .wallpaper {
   background: var(--gray-second);
+  text-align: center;
+  height: 600px;
+}
+.image {
   background-image: url('../images/img.png');
   background-position: center;
   background-repeat: no-repeat;
-  text-align: center;
   height: 600px;
 }
 
