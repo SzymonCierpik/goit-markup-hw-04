@@ -19,32 +19,45 @@
     <!--  -->
     <header class="border-bottom">
       <div class="container flex">
-        <a href="/" class="logo"><span class="logo--color">Web</span>Studio</a>
-        <nav>
-          <ul class="menu">
+        <div class="header--center">
+          <a href="/" class="logo"><span class="logo--color">Web</span>Studio</a>
+          <nav class="header--center">
+            <ul class="menu">
+              <li>
+                <a href="index.html" class="menu__item">Agencja </a>
+              </li>
+              <li>
+                <a href="portfolio.html" class="menu__item menu__item--active"
+                  >Portfolio</a
+                >
+              </li>
+              <li><a href="/" class="menu__item">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <ul class="menu flex menu--gap">
             <li>
-              <a href="index.html" class="menu__item">Agencja </a>
+              <a href="mailto:info@devstudio.com" class="menu__contact menu--color">
+                <svg class="svg">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                <span>info@devstudio.com</span>
+              </a>
             </li>
             <li>
-              <a href="portfolio.html" class="menu__item menu__item--active">Portfolio</a>
+              <a
+                href="tel:+48111111111"
+                class="menu__contact menu__contact--padding-tel menu--color"
+              >
+                <svg class="svg2">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                <span>+48 111 111 111</span>
+              </a>
             </li>
-            <li><a href="/" class="menu__item">Kontakt</a></li>
           </ul>
-        </nav>
-        <ul class="menu">
-          <li>
-            <a
-              href="mailto:nfo@devstudio.com"
-              class="menu__contact menu__contact--padding-mail"
-              >info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a href="tel:+48111111111" class="menu__contact menu__contact--padding-tel"
-              >+48 111 111 111
-            </a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
     <main>
