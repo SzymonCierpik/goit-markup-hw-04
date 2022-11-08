@@ -359,7 +359,7 @@ body {
 .social-icon--footer {
   display: flex;
   gap: 10px;
-  margin-top: 20px;;
+  margin-top: 20px;
 }
 
 .social-icon--circle--footer {
@@ -386,12 +386,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  }
+}
 
 .social-icon--circle--footer:hover {
   fill: var(--white);
   background: var(--blue);
-  transition: 250ms;;
+  transition: 250ms;
   cursor: pointer;
 }
 .footer-flex {
@@ -509,6 +509,13 @@ body {
 .pictures {
   background: #ffffff;
   border: 1px solid #eeeeee;
+}
+
+.pictures:hover {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .pictures--heading {
