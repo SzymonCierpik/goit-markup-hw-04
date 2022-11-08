@@ -356,6 +356,50 @@ body {
   cursor: pointer;
 }
 
+.social-icon--footer {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;;
+}
+
+.social-icon--circle--footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #afb1b8;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.join-us-margin {
+  margin-top: 12px;
+}
+
+.join-us {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  }
+
+.social-icon--circle--footer:hover {
+  fill: var(--white);
+  background: var(--blue);
+  transition: 250ms;;
+  cursor: pointer;
+}
+.footer-flex {
+  display: flex;
+  padding-top: 60px;
+  gap: 70px;
+}
+
 .footer--background {
   background-color: var(--gray-second);
   height: 252px;
