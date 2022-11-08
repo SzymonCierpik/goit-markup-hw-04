@@ -335,8 +335,25 @@ body {
 .our-clients {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   fill: #afb1b8;
+  gap: 30px;
+  margin-bottom: 94px;
+}
+
+.our-clients-border {
+  height: 92px;
+  width: 170px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.our-clients-border:hover,
+.our-clients-border:focus {
+  fill: var(--blue);
+  border-color: var(--blue);
+  transition: 250ms;
+  cursor: pointer;
 }
 
 .footer--background {
