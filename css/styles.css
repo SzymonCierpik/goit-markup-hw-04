@@ -321,6 +321,10 @@ body {
   background-color: var(--white);
 }
 
+.footer-color {
+  fill:var(--white);
+}
+
 .social-icon--circle:hover {
   background-color: var(--blue);
   cursor: pointer;
@@ -366,7 +370,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #afb1b8;
+  fill:var(--white);
   border-radius: 50%;
   width: 40px;
   height: 40px;
